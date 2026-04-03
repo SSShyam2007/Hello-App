@@ -10,7 +10,6 @@ public class HelloApp {
                 names = names + name + ", ";
             }
 
-            // remove last comma and space
             names = names.substring(0, names.length() - 2);
 
             System.out.println("Hello, " + names + "!");
